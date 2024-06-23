@@ -1,0 +1,47 @@
+.cm-highlight, .markdown-rendered mark, mark {
+    border-radius: 50px; /* Round the corners of the highlight */
+    box-shadow: 0px 0px 3px 1px #FFFFCC; /* Add a subtle box shadow */
+    font-size: 0.7em; 
+    font-family: Calibri;
+    text-transform: none;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    border-bottom: 2px solid #889FC3;
+    padding: 0px 8px 0px 8px;
+}
+
+
+
+
+/* highlight + bold combination for live preview*/ 
+.cm-highlight.cm-strong, .cm-strong.cm-highlight {
+    border-radius: 50px; /* Round the corners of the highlight */
+    box-shadow: 0px 0px 3px 1px #FFFFCC; /* Add a subtle box shadow */
+    font-size: 1.15em; 
+    font-family: Calibri;
+    text-transform: none;
+    font-weight: bold;
+    letter-spacing: 0.5px
+}
+
+/* bold inside highlight read mode problematic part*/
+.markdown-rendered mark strong {
+    border-radius: 50px; /* Round the corners of the highlight */
+    box-shadow: 0px 0px 3px 1px #FFFFCC; /* Add a subtle box shadow */
+    font-size: 1.15em; 
+    font-family: Calibri;
+    text-transform: none;
+    font-weight: bold;
+    letter-spacing: 0.5px
+}
+
+/* highlight inside bold   read mode*/
+.markdown-rendered strong mark {
+    border-radius: 50px; /* Round the corners of the highlight */
+    box-shadow: 0px 0px 3px 1px #FFFFCC; /* Add a subtle box shadow */
+    font-size: 1.15em; 
+    font-family: Calibri;
+    text-transform: none;
+    font-weight: bold;
+    letter-spacing: 0.5px
+}
