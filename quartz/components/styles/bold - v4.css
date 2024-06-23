@@ -1,0 +1,51 @@
+
+
+
+
+
+
+
+
+.cm-strong, strong {
+    background: linear-gradient(transparent 20%, #E4FFDB 80%);  
+    padding: 0px 8px 0px 8px;
+    border-bottom: 1px dotted #A89F91; /* Taupe */
+    border-radius: 50px;
+    transform: rotate(-1deg);
+    display:inline-block;
+}
+
+
+strong:nth-child(2n), .cm-strong:nth-child(2n), .markdown-preview-view table tbody tr strong:nth-child(2n), .table-editor tr strong:nth-child(2n)  {
+    background: linear-gradient(transparent 20%, #D4FFBF 80%);
+    padding: 0px 8px;
+    border-bottom: 1px dotted #A89F91; /* Taupe */
+    border-radius: 20px 0px; /* Adjust border-radius for irregular shape */
+    font-size: 1.1em;
+    transform: rotate(-1deg);
+    display:inline-block;
+    
+}
+
+strong:nth-child(5n), .cm-strong:nth-child(5n), .markdown-preview-view table tbody tr td strong:nth-child(3n), .table-editor tr td strong:nth-child(3n) {
+    background: linear-gradient(transparent 20%, #E4FFDB 80%);
+    padding: 0px 8px;
+    border-bottom: 1px dotted #A89F91; /* Taupe */
+    border-radius: 10px 30px 20px 90px;
+    font-size: 0.95em;
+}
+
+.markdown-preview-view table tbody tr td strong:nth-child(3n), .table-editor tr td strong:nth-child(3n) {
+    background: linear-gradient(transparent 20%, #E4FFDB 80%);
+    padding: 0px 8px;
+    border-bottom: 1px dotted #A89F91; /* Taupe */
+    border-radius: 10px 30px 20px 90px;
+    font-size: 1em;
+    transform: rotate(-1.5deg);
+    display:inline-block;
+}
+
+.theme-light .markdown-preview-view table tbody tr:nth-child(even)  
+.theme-light .markdown-preview-view table tbody tr:nth-child(odd)
+.theme-light .markdown-preview-view table tbody tr td:nth-child(even) 
+.theme-light .markdown-preview-view table tbody tr td:nth-child(odd) strong
